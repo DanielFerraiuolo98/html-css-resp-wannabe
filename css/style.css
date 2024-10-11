@@ -132,8 +132,11 @@
     .container{
        max-width: 768px;
     }
-
-    .row{
+    
+    .lessons,
+    .steps,
+    .why-us{
+        display: flex;
         justify-content: center;
     }
  }
@@ -145,7 +148,12 @@
 
     .row{
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
+    }
+
+    .row .col{
+        width: 100%;
     }
  }
 
